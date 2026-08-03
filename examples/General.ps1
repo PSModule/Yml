@@ -4,4 +4,4 @@
 #>
 
 Import-Module -Name 'Yml'
-ConvertTo-Yaml -InputObject @{ Name = 'World' }
+ConvertTo-Yml -InputObject @{ Name = 'World' }
