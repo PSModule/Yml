@@ -12,7 +12,7 @@
 param()
 
 Describe 'Module' {
-    It 'Function: ConvertTo-Yaml - is a placeholder and throws NotImplementedException' {
+    It 'Function: ConvertTo-Yml - is a placeholder and throws NotImplementedException' {
         { ConvertTo-Yml -InputObject @{} } | Should -Throw
     }
 }
