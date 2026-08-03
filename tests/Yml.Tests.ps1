@@ -12,7 +12,7 @@
 param()
 
 Describe 'Module' {
-    It 'Function: Get-PSModuleTest' {
-        Get-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
+    It 'Function: ConvertTo-Yml - is a placeholder and throws NotImplementedException' {
+        { ConvertTo-Yml -InputObject @{} } | Should -Throw
     }
 }
