@@ -3,5 +3,5 @@
         Basic module usage example.
 #>
 
-Import-Module -Name '{{ NAME }}'
-Get-PSModuleTest -Name 'World'
+Import-Module -Name 'Yml'
+ConvertTo-Yaml -InputObject @{ Name = 'World' }
