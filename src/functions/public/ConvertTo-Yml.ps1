@@ -7,6 +7,9 @@ function ConvertTo-Yml {
         Converts a PowerShell object to a YAML-formatted string.
         This is a placeholder function. Full implementation is pending.
 
+        .LINK
+        https://psmodule.io/Yml/Functions/ConvertTo-Yml/
+
         .EXAMPLE
         ConvertTo-Yml -InputObject @{ Name = 'World' }
 
@@ -29,5 +32,8 @@ function ConvertTo-Yml {
         [Parameter(Mandatory, ValueFromPipeline)]
         [object] $InputObject
     )
-    throw [System.NotImplementedException] 'ConvertTo-Yml is not yet implemented.'
+    process {
+        $null = $InputObject
+        throw [System.NotImplementedException] 'ConvertTo-Yml is not yet implemented.'
+    }
 }
