@@ -1,4 +1,4 @@
-function ConvertTo-Yaml {
+function ConvertTo-Yml {
     <#
         .SYNOPSIS
         Converts a PowerShell object to a YAML string.
@@ -8,7 +8,7 @@ function ConvertTo-Yaml {
         This is a placeholder function. Full implementation is pending.
 
         .EXAMPLE
-        ConvertTo-Yaml -InputObject @{ Name = 'World' }
+        ConvertTo-Yml -InputObject @{ Name = 'World' }
 
         Name: World
 
@@ -29,5 +29,5 @@ function ConvertTo-Yaml {
         [Parameter(Mandatory, ValueFromPipeline)]
         [object] $InputObject
     )
-    throw [System.NotImplementedException] 'ConvertTo-Yaml is not yet implemented.'
+    throw [System.NotImplementedException] 'ConvertTo-Yml is not yet implemented.'
 }
